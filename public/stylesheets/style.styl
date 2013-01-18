@@ -1,0 +1,58 @@
+html
+body
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  height 100%
+  margin 0
+  padding 0
+  background-color #DEDEDE
+  background-image -webkit-gradient(linear, left top, left bottom, from(#FEFEFE), to(#DEDEDE))
+  background-image -webkit-linear-gradient(top, #FEFEFE, #DEDEDE)
+  background-image    -moz-linear-gradient(top, #FEFEFE, #DEDEDE)
+  background-image      -o-linear-gradient(top, #FEFEFE, #DEDEDE)
+  background-image         linear-gradient(to bottom, #FEFEFE, #DEDEDE)
+
+a
+  color: #00B7FF
+
+.middle_top
+    display table 
+    \#position relative 
+    width 100%
+
+.middle_down
+    \#position absolute
+    \#top 50%
+    display table-cell 
+    vertical-align middle
+
+.inner_content
+  width 200px
+  text-align left
+  margin 0 auto
+
+
+
+my_border_radius(n)
+  -webkit-border-radius n
+  border-radius n
+
+.form_box
+  my_border_radius 5px
+  border 1px solid gray
+  padding 20px
+  -webkit-box-shadow: 0px 0px 4px 0px gray
+  box-shadow: 0px 0px 4px 0px gray
+  background-color white
+
+.form_box h1
+  color gray
+  text-shadow: 1px 1px 3px black
+
+#main_wrapper
+  height 100%
+
+#inner_wrapper
+  text-align center
+
+#file_submit
+  display none

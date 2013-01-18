@@ -1,0 +1,8 @@
+{"ts":1358246444947,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"\n/*\n * GET home page.\n */\n\nexports.index = function(req, res){\n  res.render('index', { title: 'Express' });\n};"]],"start1":0,"start2":0,"length1":0,"length2":110}]],"length":110}
+{"contributors":[],"silentsave":false,"ts":1358248613704,"patch":[[{"diffs":[[0,"Express'"],[1,", full_title: 'Upload file'"],[0," });\n};"]],"start1":95,"start2":95,"length1":15,"length2":42}]],"length":137,"saved":false}
+{"ts":1358248857433,"patch":[[{"diffs":[[0,"ess'"],[-1,", full_title: 'Upload file' "],[0,"});\n"]],"start1":99,"start2":99,"length1":36,"length2":8}]],"length":109,"saved":false}
+{"ts":1358248987168,"patch":[[{"diffs":[[0,"Express'"],[1,", full_title: 'Upload File'"],[0,"});\n};"]],"start1":95,"start2":95,"length1":14,"length2":41}]],"length":136,"saved":false}
+{"ts":1358253748560,"patch":[[{"diffs":[[0,"ad File'"],[1,", dirname: __dirname"],[0,"});\n};"]],"start1":122,"start2":122,"length1":14,"length2":34}]],"length":156,"saved":false}
+{"ts":1358254069344,"patch":[[{"diffs":[[0,"me: "],[-1,"__dirname"],[1,"app.mainDir"],[0,"});\n"]],"start1":137,"start2":137,"length1":17,"length2":19}]],"length":158,"saved":false}
+{"ts":1358254173236,"patch":[[{"diffs":[[0,"me: "],[-1,"app"],[1,"global"],[0,".mai"]],"start1":137,"start2":137,"length1":11,"length2":14}]],"length":161,"saved":false}
+{"ts":1358254312782,"patch":[[{"diffs":[[0,"ile'"],[-1,", dirname: global.mainDir"],[0,"});\n"]],"start1":126,"start2":126,"length1":33,"length2":8}]],"length":136,"saved":false}

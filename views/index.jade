@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  #main_wrapper.middle_top
+    #inner_wrapper.middle_down
+        div.middle_top.inner_content
+            div.middle_down.form_box
+              h1= full_title
+              p
+                input(type="file", name='file_upload')
+            
+              #file_props
+              #file_submit
+                br
+                input(type='button', id='file_submit_button', value='Send File', disabled);
+                span#upload_feedback
+    
+  script(src='/javascripts/detect_file_props.js');
+  script(src='/javascripts/send_file.js');
