@@ -32,9 +32,32 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
+app.get('/', function(req, res) {
+    res.redirect('main.html');
+});
+
+app.get('/main.html', function(req, res) {
+    res.sendfile('main.html');
+});
+
+app.get('/main.js', function(req, res) {
+    res.sendfile('main.js');
+});
+
+app.get('/snapshot.html', function(req, res) {
+    res.sendfile('snapshot.html');
+});
+
+app.get('/state.js', function(req, res) {
+    res.sendfile('state.js');
+});
+
+/*
 app.get('/', routes.index);
 app.post('/upload', upload.upload_mockup);
 app.get('/users', user.list);
+*/
+
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
